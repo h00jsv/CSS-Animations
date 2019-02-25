@@ -1,0 +1,40 @@
+body {
+    background-color: #fcd04b;
+    font-family: Lato;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 16px;
+    font-weight: 300px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa424; /* (x,y) offset */
+}
+
+.btn:hover {
+    box-shadow: 0 4px #efa424; 
+    top: 2px; /* this attribute makes it look like 
+    the button is pressed down, in conjunction with the 
+    attribute position: relative for .btn */
+}
+
+.btn:active {
+    box-shadow: none;
+    top: 6px;
+}

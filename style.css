@@ -1,0 +1,23 @@
+/* HOVER */
+h1:hover {
+    background-color: pink;
+}
+
+/* Focus - when an element recieves focus */
+
+input:focus {
+    background-color: teal;
+}
+button:focus {
+    border-radius: 20px;
+    background-color: #2ecc71;
+}
+/* Active - same as focus, but while mouse clicked and held... */
+p:active {
+    color: blue;
+}
+#btn:active {
+    background-color: orange;
+    font-size: 30px;
+}
+
